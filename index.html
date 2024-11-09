@@ -24,37 +24,39 @@
     />
   </head>
   <body>
-    <header class="container">
-      <div class="header-wrapper">
-        <nav class="navigation">
-          <a href="https://panska85.com/">
-            <img class="header-logo" src="./img/logo_panska_biale.png" alt="logo-panska " />
-          </a>
-          <ul class="wrapper-nav-list">
-            <li>
-              <a href="#sparkling">Sparkling wine</a>
-            </li>
-            <li>
-              <a href="#white">White wine</a>
-            </li>
-            <li>
-              <a href="#red">Red wine</a>
-            </li>
-            <li>
-              <a href="#rose">Rose Wine</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="btn-menu">
-          <button
-            class="open-menu-btn"
-            type="button"
-            aria-label="Open menu button"
-          >
-            <svg class="burger-menu" width="32" height="22">
-              <use href="./img/sprite.svg#burger-menu"></use>
-            </svg>
-          </button>
+    <header class="head">
+      <div class="container desk-head">
+        <div class="header-wrapper">
+          <nav class="navigation">
+            <a href="https://panska85.com/">
+              <img class="header-logo" src="./img/logo_panska_biale.png" alt="logo-panska " />
+            </a>
+            <ul class="wrapper-nav-list">
+              <li>
+                <a href="#sparkling">Sparkling wine</a>
+              </li>
+              <li>
+                <a href="#white">White wine</a>
+              </li>
+              <li>
+                <a href="#red">Red wine</a>
+              </li>
+              <li>
+                <a href="#rose">Rose Wine</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="btn-menu">
+            <button
+              class="open-menu-btn"
+              type="button"
+              aria-label="Open menu button"
+            >
+              <svg class="burger-menu" width="32" height="22">
+                <use href="./img/sprite.svg#burger-menu"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -88,13 +90,13 @@
         </div>
       </div>
     </header>
-    <main class="hidden">
+    <main>
       <section class="hero-section">
         <div class="container">
           <h1>Wine List</h1>
         </div>
       </section>
-      <section id="sparkling">
+      <section class="hidden" id="sparkling">
         <div class="container">
           <h2>Sparkling wine</h2>
           <ul>
@@ -221,7 +223,7 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class="hidden" >
         <div id="white" class="container">
           <h2>White wine</h2>
           <ul>
@@ -244,7 +246,7 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class="hidden">
         <div class="container">
           <h2>Red wine</h2>
           <ul>
@@ -267,7 +269,7 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class="hidden">
         <div class="container">
           <h2>Rose Wine</h2>
           <ul>
