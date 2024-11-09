@@ -1,0 +1,12 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="burger-menu" viewBox="0 0 47 32">
+            <path stroke-linecap="round" stroke-width="2.909"
+                d="M8.538 5.333h36.553M8.538 24.727h36.553M19.668 15.03h25.423" />
+        </symbol>
+        <symbol id="close-icon" viewBox="0 0 32 32">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M24 8 8 24M8 8l16 16" />
+        </symbol>
+    </defs>
+</svg>
