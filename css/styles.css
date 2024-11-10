@@ -99,7 +99,7 @@ button {
 
 .desk-head {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 14px;
 }
@@ -109,12 +109,12 @@ button {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    min-width: 320px;
-    
+    flex-grow: 1;
+
     padding: 9px 20px;
     margin: 20px 0;
     
-    background-color: inherit;
+    background-color: rgba(0, 0, 0, 0.8);
     border: 1px solid rgba(255, 255, 255, .2);
     border-radius: 12px;
 }
@@ -151,23 +151,25 @@ button {
 
 .navigation {
     display: flex;
-    flex-direction: center;
-    align-items: center;
-    gap: 40px;
 
     text-transform: uppercase;
 }
 
 .wrapper-nav-list {
     display: flex;
-    flex-direction: center;
     align-items: center;
     gap: 20px;
+    padding-left: 100px;
 }
 
 @media only screen and (max-width: 767.95px) {
   .wrapper-nav-list {
     display: none;
+  }
+}
+@media only screen and (min-width: 1158px) {
+   .wrapper-nav-list {
+    padding-left: 500px;
   }
 }
 
@@ -255,6 +257,8 @@ button {
     background-size: cover;
     
     background-image: url(../img/glowna.jpg);
+
+    padding-top: 90px;
 }
 
 /* end hero */
