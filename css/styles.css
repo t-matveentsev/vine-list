@@ -58,7 +58,6 @@ button {
 }
 
 /* відступи між секціями */
-/* відступи між секціями */
 .section {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -278,6 +277,7 @@ button {
     url(../img/glowna.jpg);
 
   padding-top: 90px;
+  padding-bottom: 50px;
 }
 
 .about-wines {
@@ -291,6 +291,11 @@ button {
 
 /* end hero */
 
+
+.sparkling-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 .list-sparkling {
     display: flex;
@@ -315,19 +320,22 @@ button {
 .sparkling-img {
     width: 100%;
     height: 100%;
-    max-width: 120px;
-    max-height: 120px;
+    max-width: 200px;
+    max-height: 200px;
     object-fit: contain;
     margin-bottom: 8px; 
+
+    border: none;
+
+  background-color: white; /* Чорний фон навколо зображення */
+  /* padding: 10px; Відступ, щоб підсвітка не "приклеювалась" до зображення */
+  /* border-radius: 10%; Закруглення кутів для м'якого ефекту */
+  box-shadow: inset 0 100px 100px 0 rgba(18, 18, 18, 1); /* Свічення білого кольору */
 }
 
-/* .text-list-item h3 {
-    font-size: 1rem;
-    margin: 0;
+.text-list-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
 }
-
-.text-list-item p {
-    font-size: 0.9rem;
-    margin: 8px 0 0;
-} */
-
